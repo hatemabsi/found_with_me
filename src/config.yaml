@@ -1,5 +1,5 @@
 site:
-  name: Hatem Absi
+  name: Hatem Al-Absi
   site: 'https://profile.hatem.app'
   base: '/'
   trailingSlash: false
@@ -9,14 +9,14 @@ site:
 # Default SEO metadata
 metadata:
   title:
-    default: Hatem Absi
+    default: Hatem Al-Absi
     template: ''
-  description: "\U0001F680 Come found with me! I'm Hatem Absi, a passionate web developer and designer. Let's create something amazing together!"
+  description: "\U0001F680 Come found with me! I'm Hatem Al-Absi, a passionate engineer, developer, and designer. Let's create something amazing together!"
   robots:
     index: true
     follow: true
   openGraph:
-    site_name: Hatem Absi
+    site_name: Hatem Al-Absi
     images:
       - url: '~/assets/images/default.png'
         width: 1200
