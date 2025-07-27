@@ -3,7 +3,7 @@
   "trailingSlash": false,
   "headers": [
     {
-      "source": "/found_with_me/(.*)",
+      "source": "/found_with_me/_astro/(.*)",
       "headers": [
         {
           "key": "Cache-Control",
