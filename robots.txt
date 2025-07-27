@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://profile.hatem.app/sitemap-index.xml
+Sitemap: https://hatemabsi.github.io/sitemap-index.xml
