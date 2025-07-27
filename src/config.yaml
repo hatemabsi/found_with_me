@@ -1,7 +1,7 @@
 site:
   name: Hatem Absi
-  site: 'https://hatemabsi.github.io'
-  base: '/found_with_me'
+  site: 'https://profile.hatem.app'
+  base: '/'
   trailingSlash: false
 
   googleSiteVerificationId: orcPxI47GSa-cRvY11tUe6iGg2IO_RPvnA1q95iEM3M
