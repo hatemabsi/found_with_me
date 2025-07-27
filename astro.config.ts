@@ -24,7 +24,7 @@ const whenExternalScripts = (items: (() => AstroIntegration) | (() => AstroInteg
 export default defineConfig({
   output: 'static',
   site: 'https://hatemabsi.github.io',
-  base: '/found-with-me',
+  base: '/found_with_me',
 
   integrations: [
     tailwind({
