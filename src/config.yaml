@@ -1,7 +1,7 @@
 site:
   name: Hatem Absi
-  site: 'https://hatemabsi.github.io/found_with_me'
-  base: '/'
+  site: 'https://hatemabsi.github.io'
+  base: '/found_with_me'
   trailingSlash: false
 
   googleSiteVerificationId: null
