@@ -1,7 +1,4 @@
-
-
-export const headerData = {
-};
+export const headerData = {};
 
 export const footerData = {
   socialLinks: [

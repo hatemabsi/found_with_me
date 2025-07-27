@@ -13,7 +13,7 @@ import FAQs from '~/components/widgets/FAQs.astro';
 import Steps from '~/components/widgets/Steps.astro';
 
 const metadata = {
-  title: 'Hatem\'s Profile',
+  title: "Hatem's Profile",
 };
 ---
 
@@ -29,7 +29,7 @@ const metadata = {
       ]}
       actions={[
         {
-          text: 'Let\'s Talk',
+          text: "Let's Talk",
           icon: 'tabler:brand-whatsapp',
           href: 'https://wa.me/+447340050534',
         },
@@ -45,12 +45,14 @@ const metadata = {
     id="hero"
     title="Hatem Absi"
     tagline="Engineer turned builder. I make things that think."
-    actions={[{ variant: 'primary', text: 'Let\'s Talk', icon: 'tabler:brand-whatsapp', href: 'https://wa.me/+447340050534' }]}
+    actions={[
+      { variant: 'primary', text: "Let's Talk", icon: 'tabler:brand-whatsapp', href: 'https://wa.me/+447340050534' },
+    ]}
   >
     <Fragment slot="subtitle">
-      From engineering the feel of a car to building tools that think - my work lives at the intersection of precision and obsession. 
-      I turn chaotic problems into clean products, blending curiosity, speed, and storytelling. 
-      Born in Jordan, based in the UK, building what’s next.
+      From engineering the feel of a car to building tools that think - my work lives at the intersection of precision
+      and obsession. I turn chaotic problems into clean products, blending curiosity, speed, and storytelling. Born in
+      Jordan, based in the UK, building what’s next.
     </Fragment>
   </Hero>
 
@@ -93,12 +95,11 @@ const metadata = {
   >
     <Fragment slot="content">
       <h2 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Who I am</h2>
-      <p>
-        I've led projects in automotive, built AI pipelines from scratch, and pitched products I coded myself.
-      </p>
+      <p>I've led projects in automotive, built AI pipelines from scratch, and pitched products I coded myself.</p>
       <br />
       <p>
-        But my real obsession? Taking a messy real-world problem and structuring it - into a tool, a venture, a narrative.
+        But my real obsession? Taking a messy real-world problem and structuring it - into a tool, a venture, a
+        narrative.
       </p>
       <br />
       <p>I bridge engineering and empathy. Code and customer. Chaos and clarity. And sometimes I cook amazing food.</p>
@@ -108,7 +109,6 @@ const metadata = {
       <div class="absolute inset-0 bg-[#f5f2f9] dark:bg-transparent"></div>
     </Fragment>
   </Content>
-
 
   <!-- Steps Widget ****************** -->
 
@@ -196,27 +196,32 @@ const metadata = {
     items={[
       {
         title: 'DeepCall (2024–Present)',
-        description: 'Voice AI mystery shopping platform. Built full MVP solo: VoIP + Whisper + GPT pipeline, Supabase SQL backend, and React dashboard. Now testing with UK retailers and clothing brands.',
+        description:
+          'Voice AI mystery shopping platform. Built full MVP solo: VoIP + Whisper + GPT pipeline, Supabase SQL backend, and React dashboard. Now testing with UK retailers and clothing brands.',
         icon: 'tabler:robot',
       },
       {
         title: 'CAE Simulation Tools',
-        description: 'Developed Python automation tools and MATLAB dashboards for vehicle dynamics simulation. Reduced manual overhead and improved team-wide process clarity.',
+        description:
+          'Developed Python automation tools and MATLAB dashboards for vehicle dynamics simulation. Reduced manual overhead and improved team-wide process clarity.',
         icon: 'tabler:settings-automation',
       },
       {
         title: 'Startup Discovery Automation Tool',
-        description: 'Built a custom internal tool that automated customer discovery for startup ideas. Combined scraping, clustering, and GPT prompts to surface unmet needs across different markets.',
+        description:
+          'Built a custom internal tool that automated customer discovery for startup ideas. Combined scraping, clustering, and GPT prompts to surface unmet needs across different markets.',
         icon: 'tabler:compass',
       },
       {
         title: 'Recruitment Optimisation',
-        description: 'Led an AI-backed internal tool to optimise role mapping and compensation. Automated gap analysis, surfaced structural inefficiencies, and generated ideal role matches - resulting in AWS funding and leadership visibility.',
+        description:
+          'Led an AI-backed internal tool to optimise role mapping and compensation. Automated gap analysis, surfaced structural inefficiencies, and generated ideal role matches - resulting in AWS funding and leadership visibility.',
         icon: 'tabler:brain',
       },
       {
         title: 'HMLTech Sites',
-        description: 'Redesigned branding and built websites for small businesses using Figma and Next.js. Clients included SaaS, manufacturing, and hospitality.',
+        description:
+          'Redesigned branding and built websites for small businesses using Figma and Next.js. Clients included SaaS, manufacturing, and hospitality.',
         icon: 'tabler:palette',
       },
     ]}
@@ -231,17 +236,20 @@ const metadata = {
       {
         icon: 'tabler:sparkles',
         title: 'Catalyst',
-        description: 'My strongest edge. I turn raw ideas into momentum. I move fast, pitch well, and bring infectious energy. I naturally attract collaborators and keep momentum alive through early chaos.',
+        description:
+          'My strongest edge. I turn raw ideas into momentum. I move fast, pitch well, and bring infectious energy. I naturally attract collaborators and keep momentum alive through early chaos.',
       },
       {
         icon: 'tabler:cpu',
         title: 'Tech',
-        description: 'Second strongest edge. I build full products solo - voice AI systems, dashboards, automation tools - and keep learning across the stack. Not a purist, just obsessed with solving through code.',
+        description:
+          'Second strongest edge. I build full products solo - voice AI systems, dashboards, automation tools - and keep learning across the stack. Not a purist, just obsessed with solving through code.',
       },
       {
         icon: 'tabler:chart-line',
         title: 'Market',
-        description: 'My weakest edge, but improving fast. I can spot underserved pain and ask sharp questions, but still levelling up in validation loops, GTM strategy, and channel building.',
+        description:
+          'My weakest edge, but improving fast. I can spot underserved pain and ask sharp questions, but still levelling up in validation loops, GTM strategy, and channel building.',
       },
     ]}
   />
@@ -329,15 +337,18 @@ const metadata = {
     items={[
       {
         title: 'What kind of startups do you want to build?',
-        description: 'Ones that solve painful problems and scale through automation, insight, or sheer obsession with the user.',
+        description:
+          'Ones that solve painful problems and scale through automation, insight, or sheer obsession with the user.',
       },
       {
         title: 'What’s your edge as a founder?',
-        description: 'I bring product intuition, engineering execution, and the speed to validate faster than most people can write a spec.',
+        description:
+          'I bring product intuition, engineering execution, and the speed to validate faster than most people can write a spec.',
       },
       {
         title: 'Are you technical or business-oriented?',
-        description: 'Both. I’ve shipped MVPs solo, handled early customer calls, and written investor decks that get attention.',
+        description:
+          'Both. I’ve shipped MVPs solo, handled early customer calls, and written investor decks that get attention.',
       },
       {
         title: 'What are you looking for in a co-founder?',
@@ -354,7 +365,7 @@ const metadata = {
       {
         variant: 'primary',
         icon: 'tabler:brand-whatsapp',
-        text: 'Let\'s Talk',
+        text: "Let's Talk",
         href: 'https://wa.me/+447340050534',
       },
     ]}
