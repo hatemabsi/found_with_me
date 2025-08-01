@@ -9,6 +9,6 @@ export const footerData = {
   ],
   footNote: `
   Built with ❤️ at 2:34AM by Hatem · 
-  <a class="text-indigo-950 underline dark:text-muted" href="https://github.com/hatemabsi/found-with-me" target="_blank">GitHub</a>
+  <a class="text-indigo-950 underline dark:text-muted" href="https://github.com/hatemabsi/found_with_me" target="_blank">GitHub</a>
 `,
 };
